@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AiMeetingAgent.Application\AiMeetingAgent.Application.csproj" />
-    <ProjectReference Include="..\AiMeetingAgent.Domain\AiMeetingAgent.Domain.csproj" />
-    <ProjectReference Include="..\AiMeetingAgent.Infrastructure\AiMeetingAgent.Infrastructure.csproj" />
-    <ProjectReference Include="..\AiMeetingAgent\AiMeetingAgent.Api.csproj" />
+    <ProjectReference Include="..\..\src\AiMeetingAgent.api\AiMeetingAgent.Api.csproj" />
+    <ProjectReference Include="..\..\src\AiMeetingAgent.Application\AiMeetingAgent.Application.csproj" />
+    <ProjectReference Include="..\..\src\AiMeetingAgent.Domain\AiMeetingAgent.Domain.csproj" />
+    <ProjectReference Include="..\..\src\AiMeetingAgent.Infrastructure\AiMeetingAgent.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

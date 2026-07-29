@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37411.7 d17.14
+VisualStudioVersion = 17.14.37411.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Api", "AiMeetingAgent\AiMeetingAgent.Api.csproj", "{2E1AB86C-9C3C-45F8-89C7-49DB65BB5968}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Application", "src\AiMeetingAgent.Application\AiMeetingAgent.Application.csproj", "{3D19788E-D266-0FFC-A3D6-B9E526FCB591}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Domain", "AiMeetingAgent.Domain\AiMeetingAgent.Domain.csproj", "{94203C07-2F25-4693-86A0-7185C52EAF54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Domain", "src\AiMeetingAgent.Domain\AiMeetingAgent.Domain.csproj", "{57005721-2A7F-F0E0-0C10-D1D7F371D5B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Application", "AiMeetingAgent.Application\AiMeetingAgent.Application.csproj", "{AA59B1D2-BA98-4340-8FBC-26549E084C37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Infrastructure", "src\AiMeetingAgent.Infrastructure\AiMeetingAgent.Infrastructure.csproj", "{F61E5C39-5C7E-C6BE-4B27-B0D2BF2186E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Infrastructure", "AiMeetingAgent.Infrastructure\AiMeetingAgent.Infrastructure.csproj", "{B32E3CF5-D8F1-45EB-8ECA-7187CB97F04A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Shared", "src\AiMeetingAgent.Shared\AiMeetingAgent.Shared.csproj", "{9BE7A6FA-C198-32E2-1938-21E65D5595F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Shared", "AiMeetingAgent.Shared\AiMeetingAgent.Shared.csproj", "{E756BE86-0BC5-4EFE-A793-155937B93B19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Tests", "tests\AiMeetingAgent.Tests\AiMeetingAgent.Tests.csproj", "{38EFA6A0-DE17-E618-FCD3-EF118697A443}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Tests", "AiMeetingAgent.Tests\AiMeetingAgent.Tests.csproj", "{A86EACBE-1118-48A0-B7CB-6803767454B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiMeetingAgent.Api", "src\AiMeetingAgent.api\AiMeetingAgent.Api.csproj", "{4941BC94-B57E-0913-42B9-FF42C8A9AC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,30 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2E1AB86C-9C3C-45F8-89C7-49DB65BB5968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E1AB86C-9C3C-45F8-89C7-49DB65BB5968}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E1AB86C-9C3C-45F8-89C7-49DB65BB5968}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E1AB86C-9C3C-45F8-89C7-49DB65BB5968}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94203C07-2F25-4693-86A0-7185C52EAF54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94203C07-2F25-4693-86A0-7185C52EAF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94203C07-2F25-4693-86A0-7185C52EAF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94203C07-2F25-4693-86A0-7185C52EAF54}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AA59B1D2-BA98-4340-8FBC-26549E084C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AA59B1D2-BA98-4340-8FBC-26549E084C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AA59B1D2-BA98-4340-8FBC-26549E084C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AA59B1D2-BA98-4340-8FBC-26549E084C37}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B32E3CF5-D8F1-45EB-8ECA-7187CB97F04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B32E3CF5-D8F1-45EB-8ECA-7187CB97F04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B32E3CF5-D8F1-45EB-8ECA-7187CB97F04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B32E3CF5-D8F1-45EB-8ECA-7187CB97F04A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E756BE86-0BC5-4EFE-A793-155937B93B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E756BE86-0BC5-4EFE-A793-155937B93B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E756BE86-0BC5-4EFE-A793-155937B93B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E756BE86-0BC5-4EFE-A793-155937B93B19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A86EACBE-1118-48A0-B7CB-6803767454B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A86EACBE-1118-48A0-B7CB-6803767454B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A86EACBE-1118-48A0-B7CB-6803767454B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A86EACBE-1118-48A0-B7CB-6803767454B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D19788E-D266-0FFC-A3D6-B9E526FCB591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D19788E-D266-0FFC-A3D6-B9E526FCB591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D19788E-D266-0FFC-A3D6-B9E526FCB591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D19788E-D266-0FFC-A3D6-B9E526FCB591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57005721-2A7F-F0E0-0C10-D1D7F371D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57005721-2A7F-F0E0-0C10-D1D7F371D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57005721-2A7F-F0E0-0C10-D1D7F371D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57005721-2A7F-F0E0-0C10-D1D7F371D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61E5C39-5C7E-C6BE-4B27-B0D2BF2186E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61E5C39-5C7E-C6BE-4B27-B0D2BF2186E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61E5C39-5C7E-C6BE-4B27-B0D2BF2186E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61E5C39-5C7E-C6BE-4B27-B0D2BF2186E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BE7A6FA-C198-32E2-1938-21E65D5595F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BE7A6FA-C198-32E2-1938-21E65D5595F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BE7A6FA-C198-32E2-1938-21E65D5595F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BE7A6FA-C198-32E2-1938-21E65D5595F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38EFA6A0-DE17-E618-FCD3-EF118697A443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38EFA6A0-DE17-E618-FCD3-EF118697A443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38EFA6A0-DE17-E618-FCD3-EF118697A443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38EFA6A0-DE17-E618-FCD3-EF118697A443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4941BC94-B57E-0913-42B9-FF42C8A9AC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4941BC94-B57E-0913-42B9-FF42C8A9AC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4941BC94-B57E-0913-42B9-FF42C8A9AC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4941BC94-B57E-0913-42B9-FF42C8A9AC1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
